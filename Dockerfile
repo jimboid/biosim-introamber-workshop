@@ -22,7 +22,7 @@ RUN mv introamber-workshop/* . && \
 # Copy lab workspace
 COPY --chown=1000:100 default-37a8.jupyterlab-workspace /home/jovyan/.jupyter/lab/workspaces/default-37a8.jupyterlab-workspace
 
- UNCOMMENT THIS LINE FOR REMOTE DEPLOYMENT
+# UNCOMMENT THIS LINE FOR REMOTE DEPLOYMENT
 COPY jupyter_notebook_config.py /etc/jupyter/
 
 # Always finish with non-root user as a precaution.
