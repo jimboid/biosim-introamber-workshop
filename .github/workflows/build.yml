@@ -1,4 +1,4 @@
-name: introamber workshop
+name: build
 
 on:
   repository_dispatch:
