@@ -1,5 +1,5 @@
-PSDI Intro Amber Workshop
-=========================
+CCPBioSim Intro Amber Workshop
+==============================
 
 [![introamber workshop](https://github.com/jimboid/biosim-introamber-workshop/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/jimboid/biosim-introamber-workshop/actions/workflows/build.yml)
 
