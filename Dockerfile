@@ -7,6 +7,8 @@ LABEL org.opencontainers.image.source=https://github.com/jimboid/biosim-introamb
 LABEL org.opencontainers.image.description="A container environment for the ccpbiosim workshop introducing AMBER."
 LABEL org.opencontainers.image.licenses=MIT
 
+ARG TARGETPLATFORM
+
 # Switch to jovyan user.
 USER $NB_USER
 WORKDIR $HOME
