@@ -14,8 +14,8 @@ WORKDIR $HOME
 # Export important paths.
 ENV AMBERHOME=/opt/conda
 
-RUN conda install -c conda-forge ambertools compilers -y
-RUN conda install numpy ipywidgets nglview -y
+RUN conda install numpy ipywidgets nglview compilers -y
+RUN conda install conda-forge/osx-arm64::ambertools  -y
 RUN pip install mdtraj
 
 # Add all of the workshop files to the home directory
