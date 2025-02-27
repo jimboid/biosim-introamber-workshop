@@ -21,7 +21,7 @@ RUN conda install numpy ipywidgets nglview compilers -y
 RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then \
       conda install conda-forge::ambertools -y; \
     elif [ "$TARGETPLATFORM" = "linux/arm64" ]; then \
-      conda install conda-forge/osx-arm64::ambertools -y; \
+      mamba install conda-forge/osx-arm64::ambertools -y; \
     fi
 RUN pip install mdtraj
 
